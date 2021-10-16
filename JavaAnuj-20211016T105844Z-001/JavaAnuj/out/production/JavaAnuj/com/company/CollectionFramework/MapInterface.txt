@@ -1,0 +1,6 @@
+
+        ->HashMap
+        ->EnumMap
+Map     ->LinkedHashMap
+        ->WeakHashMap
+        ->TreeMap

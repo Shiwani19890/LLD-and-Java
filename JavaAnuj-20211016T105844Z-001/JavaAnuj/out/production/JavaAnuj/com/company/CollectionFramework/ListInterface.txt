@@ -1,0 +1,20 @@
+List Interface
+
+allows us to store and access elements sequentially. It
+extends the collection intrefaces.
+
+Since List is an interface we cnnot create objects from it.
+in order to use functionalities of the list interface we can use these classes:
+
+
+        -> ArrayList
+        ->Vector
+List :  ->LinkedList
+        ->Stack
+
+
+---------------------------------------------------------------------------
+ArrayList is the most used
+---------------------------
+java.util package
+also known as dynamic arrays

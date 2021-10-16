@@ -1,0 +1,43 @@
+Binary System: stores in 0 and 1
+    1 bit stores 0 or 1
+    2 possible outcomes
+
+    if 2 bit
+    then 2^2 possible outcomes
+
+    if n bits
+    then 2^n possible outcomes
+
+  1Byte = 8 bit = 2^8 = 256 possible outcomes
+
+Primitive Data Type: boolean,char,byte,short,int,float,long and double
+ 1 Byte
+                stores -128 t0 127(inclusive)
+                first bit is sign bit +ve or -ve
+                remaining 7 bits
+                2^7=128
+-----------------------------------------------------------------
+Integer type: byte     - 1 byte   0 (default value)
+              short    - 2 byte   0 (default value)  -32,768(2^15) t0 32,767
+              int      - 4 byte   0 (default value)
+              long     - 8 byte   0 (default value)
+
+
+Boolean : 1 bit false (default value)
+
+Char data type: 2 byte
+'\u0000' default
+
+Float Data type : 4 byte
+0.0f
+-----------------------------------------------------------------------------
+
+types of variable:
+local
+instance
+static :should be declared static, can create single copy of static variable and share among all the
+instances of the class
+
+Double Data type: 8 byte
+0.0d
+

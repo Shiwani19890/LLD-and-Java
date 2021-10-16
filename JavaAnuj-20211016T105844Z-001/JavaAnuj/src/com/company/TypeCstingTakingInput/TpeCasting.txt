@@ -1,0 +1,9 @@
+Widening
+its automatic
+
+byte->short->char->int->long->float->double
+
+
+
+Narrowing
+ manual type casting

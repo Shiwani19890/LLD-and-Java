@@ -1,0 +1,35 @@
+Inheritance is a relationship .
+we use inheritance if there is-a relationship is present between the two classes.
+
+ex A car is a vehicle
+
+PROTECTED KEYWORD
+you can also assign methods and fields protected .Protected members are accessible
+
+-> from within the class
+-> within its subclass
+->within the same package
+
+
+UPCASTING AND DOWNCASTING
+-----------------------------------
+Suppose Animal is parent calss and Cat is child class
+
+UPCASTING
+Cat c= new Cat();//Subclass instance
+
+Animal a=c; //upcasting, it's fine since Cat is also an Animal
+
+
+
+Downcasting
+
+Cat c= new Cat();
+Animal a=c;
+Cat c1=(Cat) a;//explicitily we have to tell class
+
+SUPER KEYWORD
+----------------------
+super keyword is used to refer to immediate parent class
+of a child class.
+in other words super keyword is used by a subclass whenever it need to refer to its immediate super class.

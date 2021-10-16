@@ -1,0 +1,30 @@
+the difference between the two way of initializing
+-----------------------------
+---------                   |
+|        |                  |
+|  " Dog"|            "Dog" |
+|  "Cat" |              |    |
+|--------|              \    |
+|string pool area        \   |
+|                         \  |
+|--------------------------\-
+Heap area                   \
+                             \
+String animal1 = new String("Dog") // in the pool area also
+
+String animal2="Cat"  // in the pool area
+String animal3="Cat"   // in the popl area
+
+string pool are uses chaching its resuing the value int pool area
+
+Also strings are immutable
+
+--------------------------------------------------------------
+VARIOUS FUNCTIONS PRESENT IN sTRING class
+
+1 char charAt(int index)
+2 int length()
+3 String substring (int beginIndex)
+4 String substring (int beginIndex, int endIndex)
+5 boolean contains(CharSequence s)
+
